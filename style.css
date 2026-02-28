@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+    background-color: #fdf6f0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+button {
+    padding: 15px 30px;
+    margin: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#yesBtn {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 30px;
+    padding: 25px 50px;
+}
+
+#noBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+#message {
+    font-size: 35px;
+    margin-top: 30px;
+    display: none;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
